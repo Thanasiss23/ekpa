@@ -30,7 +30,7 @@ nclass = 12
 
 def loadDataset():
     # Put dataset path here ! 
-    filename='/media/com/WORKSPACE/Dataset/IDS/ddos2019/68_13_RANDOM_672739.csv'    
+    filename='https://raw.githubusercontent.com/kdemertzis/EKPA/refs/heads/main/Data/pcap_data.csv'    
 
     trainfile = pd.read_csv(filename)    
     data = pd.DataFrame(trainfile).to_numpy()
